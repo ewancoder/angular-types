@@ -1,0 +1,26 @@
+{
+  "name": "ewancoder-angular-types",
+  "version": "0.1.0-alpha.1",
+  "description": "Angular types.",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "watch": "tsc -p src -w",
+    "build": "rm -rf lib && tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ewancoder/angular-types"
+  },
+  "keywords": ["Angular", "Types"],
+  "author": "ewancoder@gmail.com",
+  "bugs": {
+    "url": "https://github.com/ewancoder/angular-types"
+  },
+  "homepage": "https://github.com/ewancoder/angular-types#readme",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "typescript": "^2.1.5"
+  }
+}
